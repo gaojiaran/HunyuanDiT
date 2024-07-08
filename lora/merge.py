@@ -5,6 +5,7 @@ from hydit.modules.models import HUNYUAN_DIT_MODELS
 
 from hydit.inference import _to_tuple
 
+
 args = get_args()
 
 image_size = _to_tuple(args.image_size)
